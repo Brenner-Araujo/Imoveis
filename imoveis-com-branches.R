@@ -12,3 +12,7 @@ imoveis = read_csv2("imoveis.csv")
 # Gráficos:
 
 # Medidas:
+
+mean(imoveis$imposto_anual)
+median(imoveis$imposto_anual)
+sd(imoveis$imposto_anual)
